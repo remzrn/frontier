@@ -20,19 +20,19 @@ fc-rpc-core = { version = "1.1.0-dev", path = "../rpc-core" }
 fp-consensus = { version = "2.0.0-dev", path = "../../primitives/consensus" }
 fp-rpc = { version = "3.0.0-dev", path = "../../primitives/rpc" }
 fp-storage = { version = "2.0.0-dev", path = "../../primitives/storage"}
-sp-io = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-runtime = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-api = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-storage = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-service = { version = "0.10.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-client-api = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-rpc = { version = "4.0.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
-sc-network = { version = "0.10.0-dev", git = "https://github.com/remzrn/substrate", branch = "remz-substrate-upgrade-20211218" }
+sp-io = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-runtime = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-api = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-transaction-pool = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-storage = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-blockchain = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sp-block-builder = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-transaction-pool-api = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-service = { version = "0.10.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-client-api = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-rpc = { version = "4.0.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
+sc-network = { version = "0.10.0-dev", git = "https://github.com/edgeware-network/substrate", branch = "erup-5" }
 pallet-evm = { version = "6.0.0-dev", path = "../../frame/evm" }
 fp-evm = { version = "3.0.0-dev", path = "../../primitives/evm" }
 pallet-ethereum = { version = "4.0.0-dev", path = "../../frame/ethereum" }
