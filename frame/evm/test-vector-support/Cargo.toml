@@ -9,7 +9,7 @@ repository = "https://github.com/paritytech/frontier/"
 description = "Test vector support for EVM pallet."
 
 [dependencies]
-evm = { git = "https://github.com/rust-blockchain/evm", branch = "master", features = [ "with-codec" ] }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "8d8d4783c922b96037aa4bf1f186a6b5e0b00c90", features = [ "with-codec" ] }
 hex = "0.4.0"
 serde = { version = "1.0.136", features = ["derive"] }
 serde_json = "1.0"

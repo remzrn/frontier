@@ -13,7 +13,7 @@ readme = "README.md"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-evm = { version = "0.35.0", default-features = false, features = ["with-codec"] }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "8d8d4783c922b96037aa4bf1f186a6b5e0b00c90", default-features = false, features = [ "with-codec" ] }
 hex = { version = "0.4", default-features = false, features = ["alloc"] }
 log = { version = "0.4", default-features = false }
 primitive-types = { version = "0.11.1", default-features = false, features = ["rlp", "byteorder"] }

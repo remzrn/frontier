@@ -13,7 +13,7 @@ documentation = "https://docs.rs/sp-evm"
 targets = ["x86_64-unknown-linux-gnu"]
 
 [dependencies]
-evm = { git = "https://github.com/rust-blockchain/evm", branch = "master", default-features = false, features = [ "with-codec" ] }
+evm = { git = "https://github.com/rust-blockchain/evm", rev = "8d8d4783c922b96037aa4bf1f186a6b5e0b00c90", default-features = false, features = [ "with-codec" ] }
 serde = { version = "1.0.136", features = ["derive"], optional = true }
 
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false }
