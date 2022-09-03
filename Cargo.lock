@@ -391,11 +391,11 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1531,11 +1531,11 @@ dependencies = [
  "fp-rpc",
  "sc-client-api",
  "sc-consensus",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "thiserror",
 ]
 
@@ -1549,9 +1549,9 @@ dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.0",
  "sc-client-db",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-database",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1565,9 +1565,9 @@ dependencies = [
  "futures-timer",
  "log",
  "sc-client-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1603,14 +1603,14 @@ dependencies = [
  "sc-service",
  "sc-transaction-pool",
  "sc-transaction-pool-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-storage",
  "substrate-prometheus-endpoint",
  "substrate-test-runtime-client",
  "tempfile",
@@ -1729,9 +1729,9 @@ version = "2.0.0-dev"
 dependencies = [
  "ethereum",
  "parity-scale-codec",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1739,8 +1739,8 @@ name = "fp-dynamic-fee"
 version = "1.0.0"
 dependencies = [
  "async-trait",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
 ]
 
 [[package]]
@@ -1750,8 +1750,8 @@ dependencies = [
  "evm",
  "parity-scale-codec",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-std",
 ]
 
 [[package]]
@@ -1763,11 +1763,11 @@ dependencies = [
  "fp-evm",
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -1775,14 +1775,14 @@ name = "fp-self-contained"
 version = "1.0.0-dev"
 dependencies = [
  "ethereum",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
  "parity-scale-codec",
  "parity-util-mem",
  "scale-info",
  "serde",
- "sp-debug-derive 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-debug-derive",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -1797,43 +1797,21 @@ name = "frame-benchmarking"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "linregress",
  "log",
  "parity-scale-codec",
  "paste",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "frame-benchmarking"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "linregress",
- "log",
- "parity-scale-codec",
- "paste",
- "scale-info",
- "serde",
- "sp-api 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-io",
+ "sp-runtime",
+ "sp-runtime-interface",
+ "sp-std",
+ "sp-storage",
 ]
 
 [[package]]
@@ -1844,9 +1822,9 @@ dependencies = [
  "Inflector",
  "chrono",
  "clap",
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "handlebars",
  "hash-db",
  "hex",
@@ -1866,18 +1844,18 @@ dependencies = [
  "serde",
  "serde_json",
  "serde_nanos",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-database",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-externalities",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-std",
+ "sp-storage",
+ "sp-trie",
  "thousands",
 ]
 
@@ -1886,15 +1864,15 @@ name = "frame-executive"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+ "sp-tracing",
 ]
 
 [[package]]
@@ -1916,7 +1894,7 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#174
 dependencies = [
  "bitflags",
  "frame-metadata",
- "frame-support-procedural 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support-procedural",
  "impl-trait-for-tuples",
  "log",
  "once_cell",
@@ -1925,45 +1903,16 @@ dependencies = [
  "scale-info",
  "serde",
  "smallvec",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-staking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "tt-call",
-]
-
-[[package]]
-name = "frame-support"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "bitflags",
- "frame-metadata",
- "frame-support-procedural 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "impl-trait-for-tuples",
- "log",
- "once_cell",
- "parity-scale-codec",
- "paste",
- "scale-info",
- "serde",
- "smallvec",
- "sp-arithmetic 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-staking 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-arithmetic",
+ "sp-core",
+ "sp-core-hashing-proc-macro",
+ "sp-inherents",
+ "sp-io",
+ "sp-runtime",
+ "sp-staking",
+ "sp-state-machine",
+ "sp-std",
+ "sp-tracing",
  "tt-call",
 ]
 
@@ -1973,19 +1922,7 @@ version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "Inflector",
- "frame-support-procedural-tools 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "frame-support-procedural"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "Inflector",
- "frame-support-procedural-tools 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "frame-support-procedural-tools",
  "proc-macro2",
  "quote",
  "syn",
@@ -1996,19 +1933,7 @@ name = "frame-support-procedural-tools"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support-procedural-tools-derive 3.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "proc-macro-crate 1.1.3",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "frame-support-procedural-tools"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "frame-support-procedural-tools-derive 3.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "frame-support-procedural-tools-derive",
  "proc-macro-crate 1.1.3",
  "proc-macro2",
  "quote",
@@ -2026,47 +1951,20 @@ dependencies = [
 ]
 
 [[package]]
-name = "frame-support-procedural-tools-derive"
-version = "3.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "frame-system"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
  "log",
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "frame-system"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "log",
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
+ "sp-version",
 ]
 
 [[package]]
@@ -2074,14 +1972,14 @@ name = "frame-system-benchmarking"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -2090,7 +1988,7 @@ version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
 ]
 
 [[package]]
@@ -2109,9 +2007,9 @@ dependencies = [
  "fp-evm",
  "fp-rpc",
  "fp-storage",
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
  "frame-benchmarking-cli",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-system",
  "frontier-template-runtime",
  "futures 0.3.21",
  "jsonrpc-core",
@@ -2136,16 +2034,16 @@ dependencies = [
  "sc-telemetry",
  "sc-transaction-pool",
  "sc-transaction-pool-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
  "sp-consensus-aura",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-finality-grandpa",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-inherents",
  "sp-keyring",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "sp-timestamp",
  "substrate-build-script-utils",
  "substrate-frame-rpc-system",
@@ -2157,10 +2055,10 @@ version = "0.0.0"
 dependencies = [
  "fp-rpc",
  "fp-self-contained",
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
  "frame-executive",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "frame-system-benchmarking",
  "frame-system-rpc-runtime-api",
  "pallet-aura",
@@ -2181,18 +2079,18 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-consensus-aura",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
  "sp-offchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "sp-session",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-std",
  "sp-transaction-pool",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-version",
  "substrate-wasm-builder",
 ]
 
@@ -4358,15 +4256,15 @@ name = "pallet-aura"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-application-crypto",
  "sp-consensus-aura",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4374,14 +4272,14 @@ name = "pallet-authorship"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "scale-info",
  "sp-authorship",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4389,23 +4287,23 @@ name = "pallet-babe"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "log",
  "pallet-authorship",
  "pallet-session",
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-application-crypto",
  "sp-consensus-babe",
  "sp-consensus-vrf",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-io",
+ "sp-runtime",
  "sp-session",
- "sp-staking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-staking",
+ "sp-std",
 ]
 
 [[package]]
@@ -4413,14 +4311,14 @@ name = "pallet-balances"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4428,14 +4326,14 @@ name = "pallet-base-fee"
 version = "1.0.0"
 dependencies = [
  "fp-evm",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -4445,17 +4343,17 @@ dependencies = [
  "async-trait",
  "fp-dynamic-fee",
  "fp-evm",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4470,8 +4368,8 @@ dependencies = [
  "fp-rpc",
  "fp-self-contained",
  "fp-storage",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "libsecp256k1",
  "pallet-balances",
  "pallet-evm",
@@ -4482,10 +4380,10 @@ dependencies = [
  "scale-info",
  "serde",
  "sha3 0.10.1",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4494,9 +4392,9 @@ version = "6.0.0-dev"
 dependencies = [
  "evm",
  "fp-evm",
- "frame-benchmarking 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "hex",
  "log",
  "pallet-balances",
@@ -4507,10 +4405,10 @@ dependencies = [
  "scale-info",
  "serde",
  "sha3 0.10.1",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4527,7 +4425,7 @@ version = "2.0.0-dev"
 dependencies = [
  "fp-evm",
  "pallet-evm-test-vector-support",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "substrate-bn",
 ]
 
@@ -4544,7 +4442,7 @@ name = "pallet-evm-precompile-dispatch"
 version = "2.0.0-dev"
 dependencies = [
  "fp-evm",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
  "pallet-evm",
 ]
 
@@ -4581,7 +4479,7 @@ dependencies = [
  "fp-evm",
  "pallet-evm-test-vector-support",
  "ripemd",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-io",
 ]
 
 [[package]]
@@ -4600,22 +4498,22 @@ name = "pallet-grandpa"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "log",
  "pallet-authorship",
  "pallet-session",
  "parity-scale-codec",
  "scale-info",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-application-crypto",
+ "sp-core",
  "sp-finality-grandpa",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-io",
+ "sp-runtime",
  "sp-session",
- "sp-staking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-staking",
+ "sp-std",
 ]
 
 [[package]]
@@ -4623,13 +4521,13 @@ name = "pallet-randomness-collective-flip"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "safe-mix",
  "scale-info",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4637,20 +4535,20 @@ name = "pallet-session"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "impl-trait-for-tuples",
  "log",
  "pallet-timestamp",
  "parity-scale-codec",
  "scale-info",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
  "sp-session",
- "sp-staking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-staking",
+ "sp-std",
+ "sp-trie",
 ]
 
 [[package]]
@@ -4658,13 +4556,13 @@ name = "pallet-sudo"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "scale-info",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4672,15 +4570,15 @@ name = "pallet-timestamp"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-benchmarking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-benchmarking",
+ "frame-support",
+ "frame-system",
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -4689,16 +4587,16 @@ name = "pallet-transaction-payment"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "parity-scale-codec",
  "scale-info",
  "serde",
  "smallvec",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -4711,11 +4609,11 @@ dependencies = [
  "jsonrpc-derive",
  "pallet-transaction-payment-rpc-runtime-api",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-rpc",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -4725,8 +4623,8 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "pallet-transaction-payment",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -5738,8 +5636,8 @@ version = "4.1.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "log",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-wasm-interface",
  "thiserror",
 ]
 
@@ -5757,12 +5655,12 @@ dependencies = [
  "sc-proposer-metrics",
  "sc-telemetry",
  "sc-transaction-pool-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
  "substrate-prometheus-endpoint",
 ]
 
@@ -5773,13 +5671,13 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "parity-scale-codec",
  "sc-client-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
 ]
 
 [[package]]
@@ -5795,8 +5693,8 @@ dependencies = [
  "sc-telemetry",
  "serde",
  "serde_json",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -5837,12 +5735,12 @@ dependencies = [
  "serde",
  "serde_json",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-keyring",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-panic-handler 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-keystore",
+ "sp-panic-handler",
+ "sp-runtime",
+ "sp-version",
  "thiserror",
  "tiny-bip39",
  "tokio",
@@ -5862,17 +5760,17 @@ dependencies = [
  "sc-executor",
  "sc-transaction-pool-api",
  "sc-utils",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-database",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-externalities",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-storage",
+ "sp-trie",
  "substrate-prometheus-endpoint",
 ]
 
@@ -5892,13 +5790,13 @@ dependencies = [
  "parking_lot 0.12.0",
  "sc-client-api",
  "sc-state-db",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-arithmetic",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-database",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-trie",
 ]
 
 [[package]]
@@ -5915,12 +5813,12 @@ dependencies = [
  "sc-client-api",
  "sc-utils",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-state-machine",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -5939,17 +5837,17 @@ dependencies = [
  "sc-consensus",
  "sc-consensus-slots",
  "sc-telemetry",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
  "sp-consensus-aura",
  "sp-consensus-slots",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -5979,20 +5877,20 @@ dependencies = [
  "sc-telemetry",
  "schnorrkel",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
  "sp-consensus-babe",
  "sp-consensus-slots",
  "sp-consensus-vrf",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-io",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-version",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6007,7 +5905,7 @@ dependencies = [
  "sc-client-api",
  "sc-consensus",
  "sp-blockchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -6031,16 +5929,16 @@ dependencies = [
  "sc-transaction-pool",
  "sc-transaction-pool-api",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
  "sp-consensus",
  "sp-consensus-aura",
  "sp-consensus-babe",
  "sp-consensus-slots",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
  "sp-timestamp",
  "substrate-prometheus-endpoint",
  "thiserror",
@@ -6059,14 +5957,14 @@ dependencies = [
  "sc-client-api",
  "sc-consensus",
  "sc-telemetry",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-arithmetic",
  "sp-blockchain",
  "sp-consensus",
  "sp-consensus-slots",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
  "sp-timestamp",
  "thiserror",
 ]
@@ -6083,17 +5981,17 @@ dependencies = [
  "sc-executor-common",
  "sc-executor-wasmi",
  "sc-executor-wasmtime",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-panic-handler 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-core",
+ "sp-core-hashing-proc-macro",
+ "sp-externalities",
+ "sp-io",
+ "sp-panic-handler",
+ "sp-runtime-interface",
  "sp-tasks",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-trie",
+ "sp-version",
+ "sp-wasm-interface",
  "tracing",
  "wasmi",
 ]
@@ -6106,10 +6004,10 @@ dependencies = [
  "environmental",
  "parity-scale-codec",
  "sc-allocator",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-maybe-compressed-blob",
  "sp-serializer",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-wasm-interface",
  "thiserror",
  "wasm-instrument",
  "wasmi",
@@ -6125,9 +6023,9 @@ dependencies = [
  "sc-allocator",
  "sc-executor-common",
  "scoped-tls",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime-interface",
+ "sp-wasm-interface",
  "wasmi",
 ]
 
@@ -6143,9 +6041,9 @@ dependencies = [
  "parity-wasm 0.42.2",
  "sc-allocator",
  "sc-executor-common",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime-interface",
+ "sp-wasm-interface",
  "wasmtime",
 ]
 
@@ -6176,15 +6074,15 @@ dependencies = [
  "sc-telemetry",
  "sc-utils",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-arithmetic",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-finality-grandpa",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-keystore",
+ "sp-runtime",
  "substrate-prometheus-endpoint",
  "thiserror",
 ]
@@ -6203,7 +6101,7 @@ dependencies = [
  "sc-network",
  "sc-transaction-pool-api",
  "sp-blockchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -6215,9 +6113,9 @@ dependencies = [
  "hex",
  "parking_lot 0.12.0",
  "serde_json",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-keystore",
  "thiserror",
 ]
 
@@ -6257,12 +6155,12 @@ dependencies = [
  "serde",
  "serde_json",
  "smallvec",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-arithmetic",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-finality-grandpa",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "substrate-prometheus-endpoint",
  "thiserror",
  "unsigned-varint 0.6.0",
@@ -6282,7 +6180,7 @@ dependencies = [
  "log",
  "lru 0.7.3",
  "sc-network",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "substrate-prometheus-endpoint",
  "tracing",
 ]
@@ -6307,10 +6205,10 @@ dependencies = [
  "sc-client-api",
  "sc-network",
  "sc-utils",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-core",
  "sp-offchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "threadpool",
  "tracing",
 ]
@@ -6357,15 +6255,15 @@ dependencies = [
  "sc-transaction-pool-api",
  "sc-utils",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-keystore",
  "sp-offchain",
  "sp-rpc",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "sp-session",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-version",
 ]
 
 [[package]]
@@ -6386,11 +6284,11 @@ dependencies = [
  "scale-info",
  "serde",
  "serde_json",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-rpc",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-tracing",
+ "sp-version",
  "thiserror",
 ]
 
@@ -6449,24 +6347,24 @@ dependencies = [
  "sc-utils",
  "serde",
  "serde_json",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-block-builder",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
  "sp-session",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-state-machine",
+ "sp-storage",
+ "sp-tracing",
  "sp-transaction-pool",
  "sp-transaction-storage-proof",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-trie",
+ "sp-version",
  "substrate-prometheus-endpoint",
  "tempfile",
  "thiserror",
@@ -6486,7 +6384,7 @@ dependencies = [
  "parity-util-mem-derive",
  "parking_lot 0.12.0",
  "sc-client-api",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
 ]
 
 [[package]]
@@ -6526,12 +6424,12 @@ dependencies = [
  "sc-rpc-server",
  "sc-tracing-proc-macro",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-rpc",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-tracing",
  "thiserror",
  "tracing",
  "tracing-log",
@@ -6566,11 +6464,11 @@ dependencies = [
  "sc-transaction-pool-api",
  "sc-utils",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-tracing",
  "sp-transaction-pool",
  "substrate-prometheus-endpoint",
  "thiserror",
@@ -6585,7 +6483,7 @@ dependencies = [
  "log",
  "serde",
  "sp-blockchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
  "thiserror",
 ]
 
@@ -7025,29 +6923,12 @@ dependencies = [
  "hash-db",
  "log",
  "parity-scale-codec",
- "sp-api-proc-macro 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-api"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "hash-db",
- "log",
- "parity-scale-codec",
- "sp-api-proc-macro 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-api-proc-macro",
+ "sp-core",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-std",
+ "sp-version",
  "thiserror",
 ]
 
@@ -7064,18 +6945,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-api-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "blake2 0.10.4",
- "proc-macro-crate 1.1.3",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "sp-application-crypto"
 version = "6.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
@@ -7083,22 +6952,9 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "sp-application-crypto"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-io",
+ "sp-std",
 ]
 
 [[package]]
@@ -7111,23 +6967,8 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-debug-derive 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "static_assertions",
-]
-
-[[package]]
-name = "sp-arithmetic"
-version = "5.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "integer-sqrt",
- "num-traits",
- "parity-scale-codec",
- "scale-info",
- "serde",
- "sp-debug-derive 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-debug-derive",
+ "sp-std",
  "static_assertions",
 ]
 
@@ -7138,9 +6979,9 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "async-trait",
  "parity-scale-codec",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7149,10 +6990,10 @@ version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7165,11 +7006,11 @@ dependencies = [
  "lru 0.7.3",
  "parity-scale-codec",
  "parking_lot 0.12.0",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-consensus",
  "sp-database",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-state-machine",
  "thiserror",
 ]
 
@@ -7183,12 +7024,12 @@ dependencies = [
  "futures-timer",
  "log",
  "parity-scale-codec",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-state-machine",
+ "sp-std",
+ "sp-version",
  "thiserror",
 ]
 
@@ -7200,13 +7041,13 @@ dependencies = [
  "async-trait",
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-consensus",
  "sp-consensus-slots",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -7220,16 +7061,16 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-consensus",
  "sp-consensus-slots",
  "sp-consensus-vrf",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -7241,9 +7082,9 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-arithmetic",
+ "sp-runtime",
+ "sp-std",
  "sp-timestamp",
 ]
 
@@ -7254,9 +7095,9 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "parity-scale-codec",
  "schnorrkel",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7291,58 +7132,12 @@ dependencies = [
  "secp256k1",
  "secrecy",
  "serde",
- "sp-core-hashing 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-debug-derive 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "ss58-registry",
- "substrate-bip39",
- "thiserror",
- "tiny-bip39",
- "wasmi",
- "zeroize",
-]
-
-[[package]]
-name = "sp-core"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "base58",
- "bitflags",
- "blake2-rfc",
- "byteorder",
- "dyn-clonable",
- "ed25519-dalek",
- "futures 0.3.21",
- "hash-db",
- "hash256-std-hasher",
- "hex",
- "impl-serde",
- "lazy_static",
- "libsecp256k1",
- "log",
- "merlin",
- "num-traits",
- "parity-scale-codec",
- "parity-util-mem",
- "parking_lot 0.12.0",
- "primitive-types",
- "rand 0.7.3",
- "regex",
- "scale-info",
- "schnorrkel",
- "secp256k1",
- "secrecy",
- "serde",
- "sp-core-hashing 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-debug-derive 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core-hashing",
+ "sp-debug-derive",
+ "sp-externalities",
+ "sp-runtime-interface",
+ "sp-std",
+ "sp-storage",
  "ss58-registry",
  "substrate-bip39",
  "thiserror",
@@ -7361,21 +7156,7 @@ dependencies = [
  "digest 0.10.3",
  "sha2 0.10.1",
  "sha3 0.10.1",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "twox-hash",
-]
-
-[[package]]
-name = "sp-core-hashing"
-version = "4.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "blake2 0.10.4",
- "byteorder",
- "digest 0.10.3",
- "sha2 0.10.1",
- "sha3 0.10.1",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-std",
  "twox-hash",
 ]
 
@@ -7386,18 +7167,7 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "proc-macro2",
  "quote",
- "sp-core-hashing 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "syn",
-]
-
-[[package]]
-name = "sp-core-hashing-proc-macro"
-version = "5.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "proc-macro2",
- "quote",
- "sp-core-hashing 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core-hashing",
  "syn",
 ]
 
@@ -7421,35 +7191,14 @@ dependencies = [
 ]
 
 [[package]]
-name = "sp-debug-derive"
-version = "4.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
 name = "sp-externalities"
 version = "0.12.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "environmental",
  "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "sp-externalities"
-version = "0.12.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "environmental",
- "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-std",
+ "sp-storage",
 ]
 
 [[package]]
@@ -7462,12 +7211,12 @@ dependencies = [
  "parity-scale-codec",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
+ "sp-core",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7478,23 +7227,9 @@ dependencies = [
  "async-trait",
  "impl-trait-for-tuples",
  "parity-scale-codec",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-inherents"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "async-trait",
- "impl-trait-for-tuples",
- "parity-scale-codec",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
+ "sp-std",
  "thiserror",
 ]
 
@@ -7510,40 +7245,15 @@ dependencies = [
  "parity-scale-codec",
  "parking_lot 0.12.0",
  "secp256k1",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "tracing",
- "tracing-core",
-]
-
-[[package]]
-name = "sp-io"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "futures 0.3.21",
- "hash-db",
- "libsecp256k1",
- "log",
- "parity-scale-codec",
- "parking_lot 0.12.0",
- "secp256k1",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-keystore 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
+ "sp-keystore",
+ "sp-runtime-interface",
+ "sp-state-machine",
+ "sp-std",
+ "sp-tracing",
+ "sp-trie",
+ "sp-wasm-interface",
  "tracing",
  "tracing-core",
 ]
@@ -7554,8 +7264,8 @@ version = "6.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "lazy_static",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
  "strum",
 ]
 
@@ -7571,24 +7281,8 @@ dependencies = [
  "parking_lot 0.12.0",
  "schnorrkel",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-keystore"
-version = "0.12.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "async-trait",
- "futures 0.3.21",
- "merlin",
- "parity-scale-codec",
- "parking_lot 0.12.0",
- "schnorrkel",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
  "thiserror",
 ]
 
@@ -7606,25 +7300,15 @@ name = "sp-offchain"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
 name = "sp-panic-handler"
 version = "4.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
-dependencies = [
- "backtrace",
- "lazy_static",
- "regex",
-]
-
-[[package]]
-name = "sp-panic-handler"
-version = "4.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
 dependencies = [
  "backtrace",
  "lazy_static",
@@ -7638,7 +7322,7 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "rustc-hash",
  "serde",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
 ]
 
 [[package]]
@@ -7656,33 +7340,11 @@ dependencies = [
  "rand 0.7.3",
  "scale-info",
  "serde",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-arithmetic 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "sp-runtime"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "either",
- "hash256-std-hasher",
- "impl-trait-for-tuples",
- "log",
- "parity-scale-codec",
- "parity-util-mem",
- "paste",
- "rand 0.7.3",
- "scale-info",
- "serde",
- "sp-application-crypto 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-arithmetic 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-application-crypto",
+ "sp-arithmetic",
+ "sp-core",
+ "sp-io",
+ "sp-std",
 ]
 
 [[package]]
@@ -7693,29 +7355,12 @@ dependencies = [
  "impl-trait-for-tuples",
  "parity-scale-codec",
  "primitive-types",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface-proc-macro 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "static_assertions",
-]
-
-[[package]]
-name = "sp-runtime-interface"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "impl-trait-for-tuples",
- "parity-scale-codec",
- "primitive-types",
- "sp-externalities 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime-interface-proc-macro 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-storage 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-tracing 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-wasm-interface 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-externalities",
+ "sp-runtime-interface-proc-macro",
+ "sp-std",
+ "sp-storage",
+ "sp-tracing",
+ "sp-wasm-interface",
  "static_assertions",
 ]
 
@@ -7723,18 +7368,6 @@ dependencies = [
 name = "sp-runtime-interface-proc-macro"
 version = "5.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
-dependencies = [
- "Inflector",
- "proc-macro-crate 1.1.3",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "sp-runtime-interface-proc-macro"
-version = "5.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
 dependencies = [
  "Inflector",
  "proc-macro-crate 1.1.3",
@@ -7759,11 +7392,11 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-staking 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-core",
+ "sp-runtime",
+ "sp-staking",
+ "sp-std",
 ]
 
 [[package]]
@@ -7773,19 +7406,8 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "parity-scale-codec",
  "scale-info",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "sp-staking"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "parity-scale-codec",
- "scale-info",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-std",
 ]
 
 [[package]]
@@ -7800,33 +7422,11 @@ dependencies = [
  "parking_lot 0.12.0",
  "rand 0.7.3",
  "smallvec",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-panic-handler 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
- "tracing",
- "trie-root",
-]
-
-[[package]]
-name = "sp-state-machine"
-version = "0.12.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "hash-db",
- "log",
- "num-traits",
- "parity-scale-codec",
- "parking_lot 0.12.0",
- "rand 0.7.3",
- "smallvec",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-panic-handler 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
+ "sp-panic-handler",
+ "sp-std",
+ "sp-trie",
  "thiserror",
  "tracing",
  "trie-root",
@@ -7838,11 +7438,6 @@ version = "4.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 
 [[package]]
-name = "sp-std"
-version = "4.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-
-[[package]]
 name = "sp-storage"
 version = "6.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
@@ -7851,21 +7446,8 @@ dependencies = [
  "parity-scale-codec",
  "ref-cast",
  "serde",
- "sp-debug-derive 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
-]
-
-[[package]]
-name = "sp-storage"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "impl-serde",
- "parity-scale-codec",
- "ref-cast",
- "serde",
- "sp-debug-derive 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-debug-derive",
+ "sp-std",
 ]
 
 [[package]]
@@ -7874,11 +7456,11 @@ version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "log",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
+ "sp-io",
+ "sp-runtime-interface",
+ "sp-std",
 ]
 
 [[package]]
@@ -7890,10 +7472,10 @@ dependencies = [
  "futures-timer",
  "log",
  "parity-scale-codec",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
  "thiserror",
 ]
 
@@ -7903,19 +7485,7 @@ version = "5.0.0"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
  "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "tracing",
- "tracing-core",
- "tracing-subscriber",
-]
-
-[[package]]
-name = "sp-tracing"
-version = "5.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-std",
  "tracing",
  "tracing-core",
  "tracing-subscriber",
@@ -7926,8 +7496,8 @@ name = "sp-transaction-pool"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
 dependencies = [
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -7939,11 +7509,11 @@ dependencies = [
  "log",
  "parity-scale-codec",
  "scale-info",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-inherents",
+ "sp-runtime",
+ "sp-std",
+ "sp-trie",
 ]
 
 [[package]]
@@ -7955,24 +7525,8 @@ dependencies = [
  "memory-db",
  "parity-scale-codec",
  "scale-info",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
- "trie-db",
- "trie-root",
-]
-
-[[package]]
-name = "sp-trie"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "hash-db",
- "memory-db",
- "parity-scale-codec",
- "scale-info",
- "sp-core 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core",
+ "sp-std",
  "thiserror",
  "trie-db",
  "trie-root",
@@ -7988,27 +7542,10 @@ dependencies = [
  "parity-wasm 0.42.2",
  "scale-info",
  "serde",
- "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version-proc-macro 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "thiserror",
-]
-
-[[package]]
-name = "sp-version"
-version = "5.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "impl-serde",
- "parity-scale-codec",
- "parity-wasm 0.42.2",
- "scale-info",
- "serde",
- "sp-core-hashing-proc-macro 5.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "sp-version-proc-macro 4.0.0-dev (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
+ "sp-core-hashing-proc-macro",
+ "sp-runtime",
+ "sp-std",
+ "sp-version-proc-macro",
  "thiserror",
 ]
 
@@ -8016,17 +7553,6 @@ dependencies = [
 name = "sp-version-proc-macro"
 version = "4.0.0-dev"
 source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9bf4296dbe3fee073d4012f5f12eeb33c8de4c"
-dependencies = [
- "parity-scale-codec",
- "proc-macro2",
- "quote",
- "syn",
-]
-
-[[package]]
-name = "sp-version-proc-macro"
-version = "4.0.0-dev"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
 dependencies = [
  "parity-scale-codec",
  "proc-macro2",
@@ -8042,21 +7568,9 @@ dependencies = [
  "impl-trait-for-tuples",
  "log",
  "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-std",
  "wasmi",
  "wasmtime",
-]
-
-[[package]]
-name = "sp-wasm-interface"
-version = "6.0.0"
-source = "git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19#174735ea1bb5fc4513519c45181d8df63d86f613"
-dependencies = [
- "impl-trait-for-tuples",
- "log",
- "parity-scale-codec",
- "sp-std 4.0.0 (git+https://github.com/paritytech/substrate?branch=polkadot-v0.9.19)",
- "wasmi",
 ]
 
 [[package]]
@@ -8181,11 +7695,11 @@ dependencies = [
  "sc-client-api",
  "sc-rpc-api",
  "sc-transaction-pool-api",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-block-builder",
  "sp-blockchain",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
 ]
 
 [[package]]
@@ -8220,11 +7734,11 @@ dependencies = [
  "serde_json",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
  "sp-keyring",
- "sp-keystore 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-keystore",
+ "sp-runtime",
+ "sp-state-machine",
 ]
 
 [[package]]
@@ -8234,8 +7748,8 @@ source = "git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19#fa9
 dependencies = [
  "beefy-primitives",
  "cfg-if 1.0.0",
- "frame-support 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "frame-system 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "frame-support",
+ "frame-system",
  "frame-system-rpc-runtime-api",
  "log",
  "memory-db",
@@ -8246,26 +7760,26 @@ dependencies = [
  "sc-service",
  "scale-info",
  "serde",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-application-crypto 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
+ "sp-application-crypto",
  "sp-block-builder",
  "sp-consensus-aura",
  "sp-consensus-babe",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-externalities 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-externalities",
  "sp-finality-grandpa",
- "sp-inherents 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-io 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-inherents",
+ "sp-io",
  "sp-keyring",
  "sp-offchain",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime-interface 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-runtime",
+ "sp-runtime-interface",
  "sp-session",
- "sp-state-machine 0.12.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-std 4.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-state-machine",
+ "sp-std",
  "sp-transaction-pool",
- "sp-trie 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-version 5.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-trie",
+ "sp-version",
  "substrate-wasm-builder",
  "trie-db",
 ]
@@ -8280,11 +7794,11 @@ dependencies = [
  "sc-block-builder",
  "sc-client-api",
  "sc-consensus",
- "sp-api 4.0.0-dev (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-api",
  "sp-blockchain",
  "sp-consensus",
- "sp-core 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
- "sp-runtime 6.0.0 (git+https://github.com/remzrn/substrate?branch=edgpolkadot-v0.9.19)",
+ "sp-core",
+ "sp-runtime",
  "substrate-test-client",
  "substrate-test-runtime",
 ]
